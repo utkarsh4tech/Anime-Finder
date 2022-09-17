@@ -1,0 +1,57 @@
+.mainContent{
+    margin-left: 90px;
+    margin-right: 20px;
+    flex-basis: 70%;
+}
+
+.genereMenu{
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    padding: 6px 0px;
+}
+
+.genereTabs{
+    text-decoration: none;
+    color: #a7ccea;
+    font-size: 15px;
+    font-family: 'My Soul', cursive;
+    padding: 5px 5px;
+    border-bottom: 3px solid #3c3c3c;
+    margin-right: 5px;
+    background-color: #282828;
+    cursor: pointer;
+}
+
+.tabActive{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'My Soul', cursive;
+    padding: 5px 5px;
+    border-bottom: 3px solid #fafafa;
+    margin-right: 5px;
+    background-color: #282828;
+    cursor: pointer;
+}
+
+.genereTabs:hover{
+    color: white;
+}
+
+@media  (max-width: 1000px){
+    .mainContent{
+        flex-basis: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media  (max-width: 505px){
+    .SOL{
+        display: block;
+        width: 100px;
+        margin-top: 10px;
+        white-space: nowrap;
+    }
+}
+
+

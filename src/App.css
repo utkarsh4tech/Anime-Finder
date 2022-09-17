@@ -1,0 +1,25 @@
+.app{
+    background-color: rgb(24,24,25);
+}
+
+.appBody{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.goToTop{
+    position: fixed;
+    bottom: 10%;
+    left: 0px;
+    color: white;
+    font-size: 1.7rem;
+    background-color: #24282f;
+    color: #99d4ff;
+    border: 1px solid #444e5b;
+    border-radius: 2px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+

@@ -1,0 +1,118 @@
+.searchResults{
+    width: 80vw;
+    margin: auto;
+}
+
+.searchItem a{
+    color: #a7ccea;
+    text-decoration: none;
+}
+
+.searchItem{
+    display: flex;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: rgb(32,32,32);
+    cursor: pointer;
+    position: relative;
+}
+
+.searchItem:hover{
+    background-color: black;
+}
+
+.searchImg{
+    height: 100%;
+    width: 145px;
+    cursor: pointer;
+}
+
+.searchImg img{
+    height: 100%;
+    width: 145px;
+}
+
+.searchInfo{
+    box-sizing: border-box;
+    flex-basis: 75;
+    padding-left: 20px;
+}
+
+.searchTitle{
+    font-size: 20px;
+    color: #a7ccea;
+    max-height: 25px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.searchTitle:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.searchRated{
+    color: #808080;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.searchRating{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.searchInfo p{
+    color: white;
+}
+
+.watchLater{
+    display: inline-block;
+    border: 2px solid white;
+    color: white;
+    padding: 0px 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.watchPlus{
+    margin-right: 5px;
+}
+
+.watchLater:hover{
+    background-color: #3f3f3f;
+}
+
+.searchSynopsis{
+    overflow: hidden;
+    font-size: 15px;
+    height: 70px;
+}
+
+@media (max-width: 450px){
+    .watchLaterText{
+        display: none;
+    }
+
+    .watchLater{
+        display: flex;
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        justify-content: center;
+        border-radius: 0px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .watchPlus{
+        margin: 0px;
+    }
+}

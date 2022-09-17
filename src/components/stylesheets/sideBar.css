@@ -1,0 +1,73 @@
+.sidebar{
+    margin-right: 90px;
+}
+
+.sideContainer a{
+    text-decoration: none;
+}
+
+.sideanime{
+    display: flex;
+    height: 85px;
+    width: 325px;
+    background-color: rgb(32,32,32);
+    /* padding-bottom: 7px; */
+}
+.sideanime:hover{
+    background-color: rgb(47,47,47);
+    cursor: pointer;
+}
+
+.sideanime img{
+    height: 75px;
+    width: 53.5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sideanime p{
+    margin-bottom: 0px;
+    font-family: 'My Soul', cursive;
+    font-size: 13px;
+    color: #a7ccea;
+    margin-right: 10px;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+}
+
+.ratings i{
+    margin-right: 2px;
+    font-size: 13px;
+}
+
+.ratings p{
+    color: grey;
+}
+
+.sidebarTitle{
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgb(32,32,32);
+    margin-top: 0px;
+    font-family: 'My Soul', cursive;
+    font-size: 15px;
+    text-align: center;
+    border-top: 2px solid #3c3c3c;
+    border-bottom: 2px solid #3c3c3c;
+}
+
+
+.sideContainer1, .sideContainer2{
+    border-bottom: 40px solid rgb(24,24,25);
+}
+
+@media  (max-width: 1000px){
+    .sidebar{
+        display: none;
+    }
+}
+
